@@ -5,7 +5,7 @@ import ToDoComponent from "./ToDoComponents";
 function ToDoItems(){   
 
     const [todo, setTodo] = useState([]);
-    const [task, setTask] = useState('');
+   // const [task, setTask] = useState('');
     
     const todos = localStorage.getItem('todos');
     //LOAD
